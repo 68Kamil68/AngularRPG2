@@ -7,5 +7,5 @@ import { Component } from '@angular/core';
 })
 
 export class StartComponent {
-    gameTitle = "Yeti"
+    gameTitle = "Teki"
 }

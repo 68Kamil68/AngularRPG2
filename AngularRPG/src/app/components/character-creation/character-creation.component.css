@@ -1,0 +1,58 @@
+.container-fluid {
+    background: rgba(0, 0, 0, 0.5);
+    height: 100vh;
+}
+
+.sidebar {
+    background-color: rgba(218, 207, 215, 0.418);
+}
+
+.sidebar ul {
+    list-style: none;
+    text-indent: 0;
+    padding: 0;
+}
+
+.sidebar li {
+    cursor: pointer;
+    display: block;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border-radius: 7px;
+}
+
+.sidebar li.active {
+    background: rgba(0, 0, 0);
+}
+
+.gender-button {
+    cursor: pointer;
+    display: block;
+    background-color:  rgba(0, 0, 0, 0.5);
+    color: white;
+    border-radius: 7px;
+    width: 50px;
+    font-size: 30px;
+    
+}
+
+.gender-button.active.mr-1 {
+    background: rgba(7, 7, 231, 0.726);
+}
+.gender-button.active.ml-1 {
+    background: rgba(224, 7, 177, 0.726);
+}
+
+.continue-button {
+    display: block;
+    cursor: pointer;
+    color: white;
+    background: rgb(0, 0, 150);
+    border: none;
+    border-radius: 7px;
+}
+
+.continue-button.disabled {
+    background: black;
+    cursor: auto;
+}
