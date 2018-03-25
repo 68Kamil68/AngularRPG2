@@ -10,9 +10,9 @@
         </div>
         <div class="col-6 text-center text-white p-3">
             <h2>Race</h2>
-            <p>{{character.race}}</p>
+            <p style="font-size: 25px; color:rgb(211, 190, 3)">{{character.race}}</p>
             <h2>Class</h2>
-            <p>{{character.class}}</p>
+            <p style="font-size: 25px; color:orange">{{character.class}}</p>
             <h2>Gender</h2>
             <div class="d-flex justify-content-center">
                 <div class="gender-button mr-1" [class.active]="character.gender === 'Male'" (click) = "changeGender('Male')">
