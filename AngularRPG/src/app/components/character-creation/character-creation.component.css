@@ -2,6 +2,10 @@
     background: rgba(0, 0, 0, 0.5);
     height: 100vh;
 }
+.character {
+    max-height: 450px;
+    max-width: 400px;
+}
 
 .sidebar {
     background-color: rgba(218, 207, 215, 0.418);
@@ -51,6 +55,7 @@
     border: none;
     border-radius: 7px;
 }
+
 
 .continue-button.disabled {
     background: black;

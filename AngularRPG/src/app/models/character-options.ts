@@ -1,6 +1,6 @@
 export enum RaceOptions {
     Yeti = "Yeti",
-    Gonz = "Gonz",
+    Paula = "Paulinka",
     Fudi = "Foodie",
     Bednar = "Bednar"
 }
@@ -20,7 +20,7 @@ export enum GenderOptions {
 export const CharacterOptions = {
     races: [
         RaceOptions.Yeti,
-        RaceOptions.Gonz,
+        RaceOptions.Paula,
         RaceOptions.Fudi,
         RaceOptions.Bednar
     ] ,

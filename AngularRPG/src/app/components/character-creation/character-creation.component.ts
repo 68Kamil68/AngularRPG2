@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { CharacterOptions } from '../../models/character-options'; 
+import { CharacterOptions, ClassOptions } from '../../models/character-options'; 
 @Component ({
     selector: "character-creation-component",
     templateUrl: "./character-creation.component.html",
@@ -52,5 +52,14 @@ export class CharacterCreationComponent {
         }
 
         console.log(this.character);
+    }
+
+
+    showCharacter(race:string) {
+        if(race == "Yeti")
+       {
+        return "./assets/Kamil4Head.png";
+        console.log("./assets/Kamil4Head.png")
+    }   
     }
 }
