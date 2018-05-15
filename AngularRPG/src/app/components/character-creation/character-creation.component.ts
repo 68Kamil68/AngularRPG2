@@ -54,12 +54,4 @@ export class CharacterCreationComponent {
         console.log(this.character);
     }
 
-
-    showCharacter(race:string) {
-        if(race == "Yeti")
-       {
-        return "./assets/Kamil4Head.png";
-        console.log("./assets/Kamil4Head.png")
-    }   
-    }
 }
